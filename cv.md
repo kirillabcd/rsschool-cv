@@ -32,3 +32,7 @@ function spacey(array){
 };
 ```
 
+## Languages
+* English - Upper intermediate
+* Russian - Native
+
