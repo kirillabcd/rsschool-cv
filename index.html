@@ -3,9 +3,222 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hi, my name is Kirill</title>
+    
 </head>
 <body>
-    <h1>hell world</h1>
+
+    <header class="header">
+        <div class="header-container">
+            <nav>
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <a href="#about" class="menu-link">About me</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#skills" class="menu-link">Skills</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#projects" class="menu-link">Projects</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#code" class="menu-link">Code example</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#contacts" class="menu-link">Contacts</a>
+                    </li>
+                </ul>            
+            </nav>
+        </div>
+    </header>
+
+    <div class="page">
+        <!-- slides-main-box & slide wrapper for slide-style scrolling -->
+        <div class="slides-main-box"> 
+
+            <section class="about" id="about">
+                <div class="about-container">
+                    <div class="slide-wrapper">
+
+                        <div class="content about-content">
+                            <div class="content-main">
+                                <div class="main-photo">
+                                    <img class="photo-avatar" src="img/about_photo_2png.png" alt="avatar">
+                                </div>
+                                <div class="main-title">
+                                    <h1 class="title">Kirill ABCD<br>Frontend<br>developer</h1>
+                                </div>
+                            </div>
+                            <div class="content-description">
+                                <div class="description-about">About me:</div>
+                            <div class="description-text">I developed my first website when I was 16. Now I am 33 and since 2006 I have created 2 or 3 more websites.
+                            So it looks like I am a senior frontend engineer with 17 years of expierence, right?<br><br>
+                            Just kidding because I took two Xanax pills this morning..</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="skills" id="skills">
+                <div class="skills-container">
+                    <div class="slide-wrapper">
+
+                        <div class="content skills-content">
+                            <div class="skills-title">
+                                <h2 class="title">Skills</h2>
+                                <ul class="buttons-list">
+                                    <li class="button-item">
+                                        <div class="item-text">HTML</div>
+                                    </li>
+                                    <li class="button-item">      
+                                        <div class="item-text">CSS</div>                                  
+                                    </li>
+                                    <li class="button-item">
+                                        <div class="item-text">JS</div>
+                                    </li>
+                                    <li class="button-item">
+                                        <div class="item-text">Git</div>
+                                    </li>
+                                    <li class="button-item">
+                                        <div class="item-text">GitHub</div>
+                                    </li>
+                                    <li class="button-item">
+                                        <div class="item-text">SQL</div>
+                                    </li>
+                                    <li class="button-item">
+                                        <div class="item-text">Figma</div>
+                                    </li>
+                                    <li class="button-item">
+                                        <div class="item-text">Eng:B2</div>
+                                    </li>
+                                    <li class="button-item">
+                                        <div class="item-text">Rus:native</div>
+                                    </li>
+                                </ul>
+                            </div>  
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects" id="projects">
+                <div class="projects-container">
+                    <div class="slide-wrapper">
+
+                        <div class="content projects-content">
+                            <div class="projects-title">
+                                <h2 class="title">Projects</h2>
+                                <div class="under-constraction-title">
+                                    <ul class="buttons-list">
+                                        <li class="button-item">
+                                                <a href="https://www.profb.pro" class="items-link">
+                                                    Prof Buhgalteria
+                                                </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div> 
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="code" id="code">
+                <div class="code-container">
+                    <div class="slide-wrapper">
+
+                        <div class="content code-content">
+                            <div class="code-title">
+                                <h2 class="title">Code example</h2>
+                            </div>
+                            <div class="code-window-box">
+                                <div class="code-window-head">
+                                    <div class="code-head-buttons">
+                                        <div class="head-button"></div>
+                                        <div class="head-button"></div>
+                                        <div class="head-button"></div>
+                                    </div>
+                                </div>
+                                <div class="code-window-body">
+                                    <div class="code-body-content">
+                                        <div class="code-content-text">
+                                            function spacey(array){ <br>
+                                                let currentString = '' <br>
+                                                let newArray = [] <br>
+                                                for (let i = 0 ; i < array.length; i++){ <br>
+                                                currentString += array[i].replace(/' '/g, '') <br>
+                                                newArray.push(currentString); <br>
+                                                } <br>
+                                                return newArray <br>
+                                            };<br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="contacts" id="contacts">
+                <div class="contacts-container">
+                    <div class="slide-wrapper slide-wrapper-contacts">
+
+                        <div class="content contacts-content">
+                            <div class="contacts-title">
+                                <h2 class="title">Contacts</h2>
+                                <ul class="buttons-list">
+                                    <li class="button-item">
+                                        <a href="https://t.me/WW_ED" class="telegram">
+                                            Telegram
+                                        </a>
+                                    </li>
+                                    <li class="button-item">
+                                        <a href="mailto:k.motsart@gmail.com" class="mail">
+                                            Mail me
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div> 
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="footer-container">
+                    <div class="footer-items">
+                            <div class="footer-left-wing">
+                                <div class="footer-text">
+                                    2023 Kirill ABCD
+                                </div>
+
+                                <div class="footer-gh-logo">
+                                    <a href="https://github.com/kirillabcd" class="gh-link">
+                                        <img src="./img/github.svg" alt="github" class="gh-logo">
+                                    </a>
+                                </div>
+                            </div>
+
+
+                            <div class="footer-rs-logo">
+                                <a href="https://rs.school/js/" class="rs-link">
+                                    <img src="./img/rs_school_js.svg" alt="RSSchool" class="rs-logo">
+                                </a>   
+                            </div> 
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+    </div>
 </body>
 </html>

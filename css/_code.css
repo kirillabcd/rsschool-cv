@@ -1,0 +1,36 @@
+.code-window-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.code-window-head {
+    border: 2px solid var(--first-font-color);
+    border-radius: 20px 20px 0 0;
+    height: 60px;
+}
+.code-window-body {
+    border: 2px solid var(--first-font-color);
+    border-top:none;
+    border-radius: 0 0 20px 20px;
+    height: 480px;
+}
+
+.code-head-buttons {
+    display: flex;
+    gap: 10px;
+    height: 100%;
+    align-items:center;
+    padding: 0 0 0 20px;
+}
+.head-button {
+    width: 30px;
+    height: 30px;
+    border: 2px solid var(--first-font-color);
+    border-radius: 100%;
+}
+
+.code-body-content {
+    padding: 20px;
+}
+.code-content-text {
+}
