@@ -1,9 +1,9 @@
 @font-face {
     font-family: "Konstant Grotesk" ;
-    src: url(/fonts/KonstantGrotesk.otf);
+    src: url(../fonts/KonstantGrotesk.otf);
 }
 
 @font-face {
     font-family: "Inter";
-    src: url(/fonts/Inter.ttf);
+    src: url(../fonts/Inter.ttf);
 }
