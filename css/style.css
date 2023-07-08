@@ -1,6 +1,6 @@
 
 /* fonts ================================================================================================================== */
-@import url(fonts.css);
+@import url(./fonts.css);
 
 /* style varaibles ======================================================================================================== */
 @import url(./vars.css);
@@ -12,10 +12,10 @@
 @import url(./base.css);
 
 /* layouts style ========================================================================================================== */
-@import url(./_header.css);
-@import url(./_about.css);
-@import url(./_skills.css);
+@import url(./header.css);
+@import url(./about.css);
+@import url(./skills.css);
 /* @import url(_projects.css); */
-@import url(./_code.css);
-@import url(./_contacts.css);
-@import url(./_footer.css);
+@import url(./code.css);
+@import url(./contacts.css);
+@import url(./footer.css);
