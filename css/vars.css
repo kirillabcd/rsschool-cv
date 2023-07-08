@@ -1,0 +1,29 @@
+:root {
+    /* project collors */
+    --white-сolor: #fff;
+    --black-сolor: #131313;
+    --gray-сolor: #6f6f6f;
+    --red-сolor: #e63547;
+    --blue-сolor: #2D57C8;
+    --pink-сolor: #F28772;
+    --yellow-color:#eeab01;
+
+    --bg-сollor:#F9F9F9; 
+
+    --first-font-color:#212353;
+    --second-font-color:#4B5D68;
+
+    --first-accent-color: var(--blue-сolor);
+    --second-accent-color: var(--pink-сolor);
+
+    /* project fonts */
+
+    --main-font: "Inter"; /* !! write main font famyly */
+    --main-weight: 500; /* !! write main font weight */
+    --second-font: "Konstant Grotesk";/* !! write second font famyly */
+
+    --font-family: var(--main-font), sans-serif; /* default font family */
+    --font-color: var(--first-font-color); /* default font color */
+    --font-size: 38px; /* default font size */
+    --font-weight: var(--main-weight); /* default font weight */
+}

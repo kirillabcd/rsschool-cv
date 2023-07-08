@@ -1,0 +1,37 @@
+# Kirill ABCD
+
+## Contact info:
+* Email: k.motsart@gmail.com
+* Github: [kirillabcd](https://github.com/kirillabcd)
+* Telegram: [WW_ED](https://t.me/WW_ED)
+
+## About me:
+I developed my first website when I was 16. Now I am 33 and since 2006 I have created 2 or 3 more websites.   
+So it looks like I am a senior front-end developer with 17 years of expierence, right?  
+Just kidding. I'm here to have a good time.
+
+## Skills
+* HTML5
+* CSS3
+* JS basics
+* Git/ GitHub basics
+* Figma
+* SQL
+
+## Code example
+```
+function spacey(array){
+  let currentString = ''
+  let newArray = []
+  for (let i = 0 ; i < array.length; i++){
+  currentString += array[i].replace(/' '/g, '')
+  newArray.push(currentString);
+}
+  return newArray
+};
+```
+
+## Languages
+* English - Upper intermediate
+* Russian - Native
+
