@@ -1,0 +1,21 @@
+.footer {
+    height: 10vh;
+}
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left-wing{
+    display: flex;
+    gap: 10px;
+}
+
+.gh-logo {
+    height: 45px;
+    width: 45px;
+}
+
+.rs-logo {
+    height: 45px;
+}
